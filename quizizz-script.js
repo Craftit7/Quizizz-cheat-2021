@@ -1,7 +1,11 @@
 const getQuestionInfo = () => {
   const rootObject = document.querySelector("body > div")
   if (!rootObject) throw new Error("Could not retreive root object");
-  const vue = rootObject.__vue__;
+  let vue = rootObject.__vue__;
+  console.log(rootObject)
+  if (!vue) {
+    vue = rootObject.__vue__
+  }
 
   return { 
     roomHash:   vue.$store._vm._data.$$state.game.data.roomHash, 
@@ -61,13 +65,8 @@ const getRoomHash = () => {
 console.log("%c\nWelcome to quizizz cheat script!\nCreated by craftit7 (craftit7@gmail.com)\nhttps://github.com/TeamRazen/Quizizz-cheat-2021/\nFor support, please open an issue on github.\n\nFor better performance, please install the extension (Link on GitHub).\nEnjoy!", "color: red;");
 let quiz = await (await fetch(`https://quizizz.com/api/main/game/${getRoomHash()}`)).json();
 let lastQuestionID = undefined;
-let quizHash = getRoomHash();
 
 setInterval(async () => {
-    if (quizHash !== getRoomHash()) {
-        quizHash = getRoomHash()
-        quiz = await (await fetch(`https://quizizz.com/api/main/game/${getRoomHash()}`)).json();
-    }
     const questionInfo = getQuestionInfo();
     if (questionInfo.questionID !== lastQuestionID) {
       for (const q of quiz.data.questions) {
