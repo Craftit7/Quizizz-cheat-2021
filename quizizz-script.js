@@ -58,10 +58,15 @@ const getRoomHash = () => {
 }
 
 (async () => {
-const quiz = await (await fetch(`https://quizizz.com/api/main/game/${getRoomHash()}`)).json();
+let quiz = await (await fetch(`https://quizizz.com/api/main/game/${getRoomHash()}`)).json();
 let lastQuestionID = undefined;
+let quizHash = getRoomHash();
 
 setInterval(() => {
+    if (quizHash !== getRoomHash()) {
+        quizHash = getRoomHash()
+        quiz = await (await fetch(`https://quizizz.com/api/main/game/${getRoomHash()}`)).json();
+    }
     const questionInfo = getQuestionInfo();
     if (questionInfo.questionID !== lastQuestionID) {
       for (const q of quiz.data.questions) {
