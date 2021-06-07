@@ -52,7 +52,7 @@ const changeElementOpacity = (elem) => {
 const getRoomHash = () => {
   const rootObject = document.querySelector("body > div")
   if (!rootObject) throw new Error("Could not retreive root object");
-  const vue = rootObject.__vue__;
+  let vue = rootObject.__vue__;
   console.log(rootObject)
   if (!vue) {
     vue = rootObject.__vue__
