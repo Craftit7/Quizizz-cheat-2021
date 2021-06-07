@@ -77,7 +77,7 @@ let quizHash = getRoomHash();
 setInterval(async () => {
     if (quizHash !== getRoomHash()) {
         quizHash = getRoomHash()
-        quiz = await (await fetch(`https://quizizz.com/api/main/game/${getRoomHash()}`)).json();
+        quiz = (await (await fetch(`https://quizizz.com/api/main/game/${getRoomHash()}`)).json());
     }
     const questionInfo = getQuestionInfo();
     if (questionInfo.questionID !== lastQuestionID) {
