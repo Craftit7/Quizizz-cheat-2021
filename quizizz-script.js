@@ -74,7 +74,7 @@ let quiz = await (await fetch(`https://quizizz.com/api/main/game/${getRoomHash()
 let lastQuestionID = undefined;
 let quizHash = getRoomHash();
 
-setInterval(() => {
+setInterval(async () => {
     if (quizHash !== getRoomHash()) {
         quizHash = getRoomHash()
         quiz = await (await fetch(`https://quizizz.com/api/main/game/${getRoomHash()}`)).json();
