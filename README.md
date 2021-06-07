@@ -18,6 +18,6 @@ fetch("https://raw.githubusercontent.com/TeamRazen/Quizizz-cheat-2021/main/quizi
 
 ## Using the extension
 
-- Just click on it's icon and click on "activate"
+- Just click on it's icon while in the first question.
 
 ## Help me make more! [Donate](https://paypal.me/FlashPlaysDonations)
