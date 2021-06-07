@@ -3,7 +3,7 @@ This one works lol
 
 ## Note
 
-You need to run the script each time you join a new quiz, If you want to load it automatically every time, [install my extension](https://raw.githubusercontent.com/TeamRazen/Quizizz-cheat-2021/main/Quizizz%20Solver.zip)! (Free of ads and free to use)
+You need to run the script each time you join a new quiz, If you want to have it easy to access, [install my extension](https://raw.githubusercontent.com/TeamRazen/Quizizz-cheat-2021/main/Quizizz%20Solver.zip)! (Free of ads and free to use)
 
 
 ## Steps
