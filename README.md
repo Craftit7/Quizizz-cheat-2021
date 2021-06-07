@@ -19,3 +19,5 @@ fetch("https://raw.githubusercontent.com/TeamRazen/Quizizz-cheat-2021/main/quizi
 ## Using the extension
 
 - Just click on it's icon and click on "activate"
+
+## Help me make more! [Donate](https://paypal.me/FlashPlaysDonations)
