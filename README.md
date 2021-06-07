@@ -1,7 +1,8 @@
 # Quizizz-cheat-2021
 This one works lol
 
-## You need to run the script each time you join a new quiz, If you want to load it automatically every time, (install my extension)[Work In Progress]! (Free of ads and free to use)
+## You need to run the script each time you join a new quiz, If you want to load it automatically every time, [button url="http://www.google.com"]
+! (Free of ads and free to use)
 
 
 Steps:-
