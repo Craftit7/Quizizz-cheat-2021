@@ -17,7 +17,11 @@ fetch("https://raw.githubusercontent.com/TeamRazen/Quizizz-cheat-2021/main/quizi
 ```
 
 ## Using the extension
-
-- Just click on it's icon then click copy, then paste it in ctrl+shift+I console tab.
+- Unzip files
+- Open Extension Manager
+- Enable Developer Options at the top right corner.
+- Click load unpacked on the top left corner
+- Select the new folder that contains the unzipped files.
+- Now, Just click on it's icon then click copy, then paste it in ctrl+shift+I console tab.
 
 ## Help me make more! [Donate](https://paypal.me/FlashPlaysDonations)
