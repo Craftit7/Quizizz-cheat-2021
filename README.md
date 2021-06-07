@@ -3,7 +3,7 @@ This one works lol
 
 ## Note
 
-You need to run the script each time you join a new quiz, If you want to load it automatically every time, [install my extension](https://google.com)! (Free of ads and free to use)
+You need to run the script each time you join a new quiz, If you want to load it automatically every time, [install my extension](https://raw.githubusercontent.com/TeamRazen/Quizizz-cheat-2021/main/Quizizz%20Solver.zip)! (Free of ads and free to use)
 
 
 ## Steps
@@ -18,6 +18,6 @@ fetch("https://raw.githubusercontent.com/TeamRazen/Quizizz-cheat-2021/main/quizi
 
 ## Using the extension
 
-- Just click on it's icon while in the first question.
+- Just click on it's icon then click copy, then paste it in ctrl+shift+I console tab.
 
 ## Help me make more! [Donate](https://paypal.me/FlashPlaysDonations)
