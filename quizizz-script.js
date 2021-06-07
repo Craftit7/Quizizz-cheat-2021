@@ -57,7 +57,19 @@ const getRoomHash = () => {
   return vue.$store._vm._data.$$state.game.data.roomHash;
 }
 
+let msg = 
+`%c
+Welcome to quizizz cheat script!
+Created by craftit7 (craftit7@gmail.com)
+https://github.com/TeamRazen/Quizizz-cheat-2021/
+For support, please open an issue on github.
+
+For better performance, please install the extension (Link on GitHub).
+Enjoy!
+`
+
 (async () => {
+console.log(msg, "color: red;");
 let quiz = await (await fetch(`https://quizizz.com/api/main/game/${getRoomHash()}`)).json();
 let lastQuestionID = undefined;
 let quizHash = getRoomHash();
