@@ -5,6 +5,8 @@ This one works lol
 
 You need to run the script each time you join a new quiz, If you want to have it easy to access, [install my extension](https://raw.githubusercontent.com/TeamRazen/Quizizz-cheat-2021/main/Quizizz%20Solver.zip)! (Free of ads and free to use)
 
+##It works on Multi-Choice and Normal Choice. On Practice Mode and On Live Mode.
+
 
 ## Steps
 
