@@ -8,7 +8,7 @@ You need to run the script each time you join a new quiz, If you want to load it
 
 ## Steps
 
-- After the first question loads:
+- After you join the quiz:
 - Press F12 or ctrl+shift+i
 - then goto console
 - then paste this script:-
